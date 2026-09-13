@@ -1,0 +1,46 @@
+steps=9200
+water_glasses=8
+fasting=True
+name="Fellex"
+print(steps)
+print(water_glasses)
+print(fasting)
+print(name)
+bench_press_sets=5
+reps_per_set=12
+weight_per_rep_kg=80
+total_reps=bench_press_sets*reps_per_set
+total_volume_kg=total_reps*weight_per_rep_kg
+reps_per_minute=total_reps//4 #assume 4 minute of work  time 
+print("===BENCH PRESS SESSIONS===")
+print(f"Sets:{bench_press_sets}")
+print(f"Reps per set:{reps_per_set}")
+print(f"Total reps:{total_reps}")
+print(f"Weight per rep:{weight_per_rep_kg}kg")
+print(f"Total volume lifted:{total_volume_kg}kg")
+print(f"Reps per minute :{reps_per_minute}")
+steps=7200
+water_glasses=8
+sleep_hours=8
+fasting="OMAD"
+print(steps>=8000)
+print(water_glasses==8)
+print(sleep_hours<6)
+print(fasting!="None")
+print(steps>10000)
+first_name="Fellex"
+greeting="welcome,"+first_name+"."
+print(greeting)
+skill="programming"
+message="Today's skill is"+skill+"."
+print(message) 
+steps=9000
+if steps>=8000:
+    print("Target hit.Well done.")
+else:print(f"Target missed.You need{8000-steps} more steps.")
+
+fasting="16:8"
+print(fasting!="None")
+daily_habits=("8 glasses water","8000 steps","cold shower","OMAD fast","work out")
+for habit in daily_habits:
+    print(f"Habit:{habit}")

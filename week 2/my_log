@@ -1,0 +1,13 @@
+daily_log= {"steps":9200,"water_glasses":8,"cold_shower":True,"fasting_protocol":"OMAD","sleep_hours":7.5 }
+print("Steps today:",daily_log["steps"])
+print("Protocol:",daily_log["fasting_protocol"])
+print("Cold_shower:",daily_log["cold_shower"])
+print("water_glasses:",daily_log["water_glasses"])
+my_log={"steps":9400,"water_glasses":8,"fasting_protocol":"OMAD","Cold_shower":True,"sleep_hours":6.7}
+for key,value in my_log.items():
+    print(key,":",value)
+    print()
+    if my_log["steps"]>=8000:
+        print("Step goal hit")
+    else:
+        print("Step goal missed")
